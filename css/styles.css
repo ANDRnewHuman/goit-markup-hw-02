@@ -8,8 +8,11 @@
 
 
 /* все теги ul без оформления */
-ul {
+.list {
     list-style: none;
+}
+.list-a{
+    text-decoration: none;
 }
 
 :root {
@@ -18,11 +21,13 @@ ul {
     --color-while: #FFFFFF;
     --color-blue: #4D5AE5;
     --color-footer: #E7E9FC;
+    --color-hero-h:#F4F4FD;
 }
 
-.page {
+body{
     background-color: var(--color-while);
     font-family: Roboto, sans-serif;
+    color: var(--text-color-h);
 }
 
 /* header */
@@ -34,7 +39,6 @@ ul {
     line-height: 1.3;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    text-decoration: none;
 
 
 }
@@ -47,32 +51,37 @@ ul {
     line-height: 1.3;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    text-decoration: none;
 }
 
 /* nav */
-.site-nav li a {
+.site-nav .h-f{
     color: var(--text-color-h);
     font-weight: 600;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    text-decoration: none;
 }
 
-.site-nav li a:hover,
-.site-nav li a:focus {
+.site-nav .h-f:hover,
+.site-nav .h-f:focus {
+    color: var(--text-color-p);
+}
+.site-nav .h-f:active{
+    color: var(--color-blue);
+}
+.site-nav .h-f.current{
     color: var(--color-blue);
 }
 
-.auth-nav li a {
+.auth-nav .h-f{
     color: var(--text-color-p);
-    font-style: normal;
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    text-decoration: none;
+}
+.auth-nav .h-f:hover,
+.auth-nav .h-f:focus{
+    color: var(--color-blue);
 }
 
 /* Section */
@@ -81,7 +90,7 @@ ul {
 }
 
 .hero-our {
-    background-color: #F4F4FD;
+    background-color: var(--color-hero-h);
 }
 
 .hero-h {
@@ -153,17 +162,20 @@ ul {
     cursor: pointer;
 }
 
-.button.button.secondary-main {
+.section .button.secondary-main {
     color: var(--color-while);
     background-color: var(--color-blue);
 }
 
-.button.button.secondary-main:hover,
-.button.button.secondary-main:focus {
-    color: var(--color-blue);
-    background-color: var(--color-while);
+.section .button.secondary-main:hover,
+.section .button.secondary-main:focus {
+    color: var(--color-while);
+    background-color: var(--color-blue);
 }
-
+.section .button.secondary-main:active{
+    color: var(--color-while);
+    background-color:#404BBF;
+}
 .button.secondary {
     color: var(--color-blue);
     background-color: var(--color-footer);
