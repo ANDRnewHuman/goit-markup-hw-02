@@ -165,6 +165,11 @@ body{
 .section .button.secondary-main {
     color: var(--color-while);
     background-color: var(--color-blue);
+    font-family: Roboto, sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.19;
+    letter-spacing: 0.04em;
 }
 
 .section .button.secondary-main:hover,
@@ -179,6 +184,11 @@ body{
 .button.secondary {
     color: var(--color-blue);
     background-color: var(--color-footer);
+    font-family: Roboto, sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
 }
 
 .button.secondary:hover,
