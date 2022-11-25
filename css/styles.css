@@ -6,6 +6,8 @@
 /*  цвет на картинке #F4F4FD */
 /* footer #E7E9FC */
 
+
+/* все теги ul без оформления */
 ul {
     list-style: none;
 }
