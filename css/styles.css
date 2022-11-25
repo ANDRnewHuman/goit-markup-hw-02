@@ -1,0 +1,174 @@
+/* фон #E5E5E5 */
+/* web #4D5AE5 studio #F4F4FD */
+/*  основной цвет - #2E2F42 
+вторичный цвет - #434455 */
+/* кнопки - #FFFFFF #4D5AE5 */
+/*  цвет на картинке #F4F4FD */
+/* footer #E7E9FC */
+
+ul {
+    list-style: none;
+}
+
+:root {
+    --text-color-h: #2E2F42;
+    --text-color-p: #434455;
+    --color-while: #FFFFFF;
+    --color-blue: #4D5AE5;
+    --color-footer: #E7E9FC;
+}
+
+.page {
+    background-color: var(--color-while);
+    font-family: Roboto, sans-serif;
+}
+
+/* header */
+.logo {
+    color: var(--color-blue);
+    font-family: Raleway, sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.3;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    text-decoration: none;
+
+
+}
+
+.stud {
+    color: var(--text-color-h);
+    font-family: Raleway, sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.3;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+/* nav */
+.site-nav li a {
+    color: var(--text-color-h);
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+}
+
+.site-nav li a:hover,
+.site-nav li a:focus {
+    color: var(--color-blue);
+}
+
+.auth-nav li a {
+    color: var(--text-color-p);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+}
+
+/* Section */
+.hero {
+    background-color: var(--text-color-h);
+}
+
+.hero-our {
+    background-color: #F4F4FD;
+}
+
+.hero-h {
+    color: var(--color-while);
+    font-family: Roboto, sans-serif;
+    font-weight: 600;
+    font-size: 56px;
+    line-height: 1.1;
+    text-align: center;
+    letter-spacing: 0.02em;
+}
+
+.section,
+.section-title-h {
+    color: var(--text-color-h);
+    font-family: Roboto, sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+.section,
+.section-title-p {
+    color: var(--text-color-p);
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.hero-centr {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+}
+
+/* footer */
+.footer {
+    background-color: var(--text-color-h);
+}
+
+/* color footer */
+.footer-stud {
+    color: #F4F4FD;
+    font-family: Raleway, sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.3;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.footer.text {
+    color: var(--color-footer);
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+/* button */
+.button {
+    color: var(--text-color-h);
+    cursor: pointer;
+}
+
+.button.button.secondary-main {
+    color: var(--color-while);
+    background-color: var(--color-blue);
+}
+
+.button.button.secondary-main:hover,
+.button.button.secondary-main:focus {
+    color: var(--color-blue);
+    background-color: var(--color-while);
+}
+
+.button.secondary {
+    color: var(--color-blue);
+    background-color: var(--color-footer);
+}
+
+.button.secondary:hover,
+.button.secondary:focus {
+    color: var(--color-while);
+    background-color: var(--color-blue);
+}
