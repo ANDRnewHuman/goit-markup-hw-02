@@ -54,7 +54,7 @@ body{
 }
 
 /* nav */
-.site-nav .h-f{
+.site-nav .hover{
     color: var(--text-color-h);
     font-weight: 600;
     font-size: 16px;
@@ -62,25 +62,25 @@ body{
     letter-spacing: 0.02em;
 }
 
-.site-nav .h-f:hover,
-.site-nav .h-f:focus {
+.site-nav .hover:hover,
+.site-nav .hover:focus {
     color: var(--text-color-p);
 }
-.site-nav .h-f:active{
+.site-nav .hover:active{
     color: var(--color-blue);
 }
-.site-nav .h-f.current{
+.site-nav .hover.current{
     color: var(--color-blue);
 }
 
-.auth-nav .h-f{
+.auth-nav .hover{
     color: var(--text-color-p);
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
-.auth-nav .h-f:hover,
-.auth-nav .h-f:focus{
+.auth-nav .hover:hover,
+.auth-nav .hover:focus{
     color: var(--color-blue);
 }
 
@@ -170,6 +170,7 @@ body{
     font-size: 16px;
     line-height: 1.19;
     letter-spacing: 0.04em;
+    text-align: center;
 }
 
 .section .button.secondary-main:hover,
